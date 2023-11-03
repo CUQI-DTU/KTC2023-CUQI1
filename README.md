@@ -17,10 +17,18 @@ Electrical Impedance Tomography (EIT) is a powerful technique for non-invasively
 - [License](#license)
 
 ## Authors
-
+- Amal Mohammed A Alghamdi (DTU), Denmark
+- Martin Sæbye Carøe (DTU), Denmark
+- Jasper Marijn Everink (DTU), Denmark
+- Jakob Sauer Jørgensen (DTU), Denmark
+- Kim Knudsen (DTU), Denmark
+- Jakob Tore Kammeyer Nielsen (DTU), Denmark
+- Aksel Kaastrup Rasmussen (DTU), Denmark
+- Rasmus Kleist Hørlyck Sørensen (DTU), Denmark
+- Chao Zhang (DTU), Denmark
 
 ## Addresses
-
+DTU: Technical University of Denmark, Department of Applied Mathematics and Computer Science Richard Petersens Plads Building 324 2800 Kgs. Lyngby Denmark
 
 ## Description of the algorithm
 
