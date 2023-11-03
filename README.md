@@ -14,33 +14,42 @@ Electrical Impedance Tomography (EIT) Reconstruction Competition. In this compet
 - [Results](#results)
 - [License](#license)
 
-## Introduction
+## Authors
 
 Electrical Impedance Tomography (EIT) is a powerful technique for non-invasively imaging the electrical conductivity distribution within objects. Our submission focuses on developing an innovative algorithm that enhances the quality and accuracy of EIT image reconstructions.
 
-## Algorithm Overview
+## Addresses
 
-Our approach to EIT image reconstruction involves the following key steps:
 
-1. **Data Preprocessing**: We preprocess the raw EIT measurement data to remove noise and artifacts, ensuring the data is suitable for reconstruction.
+## Description of the algorithm
 
-2. **Forward Model**: We employ a well-established forward model to simulate the expected measurements based on the given conductivity distribution.
 
-3. **Inverse Problem Solver**: We apply an advanced optimization technique to solve the inverse problem and reconstruct the conductivity distribution from the measured data.
-
-4. **Post-processing**: We further refine the reconstructed image to improve its quality and make it clinically relevant.
-
-## Requirements
-
+## Installation instructions
 To run our EIT image reconstruction algorithm, you will need:
 
 - Python 3.x
 - Required Python libraries (listed in `requirements.txt`)
 - Access to the provided dataset (not included in this repository)
 
-## Getting Started
+## Usage instructions
 
-To get started, follow these steps:
+## Examples
+|   	|  Ref	|  90 	| 60 	| 30 	|
+|----------	|-----	|---	|---	|---	|
+|   **ta**	| ![](results/01.png)	| ![](results/11.png)	|  ![](results/41.png) 	|   ![](results/71.png)	|   
+|   **tb**	| ![](results/02.png)	| ![](results/12.png)	|  ![](results/42.png) 	|   ![](results/72.png)	|
+|   **tc**	| ![](results/03.png)	| ![](results/13.png)	|  ![](results/43.png) 	|   ![](results/73.png)	|
+|   **td**	| ![](results/04.png)	| ![](results/14.png)	|  ![](results/44.png) 	|   ![](results/74.png)	|  
 
-1. Clone this repository to your local machine:
+Scores for each sample and angle:
 
+|   	|  90 	| 60 	| 30 	|
+|-----	|---	|---	|---	|
+|**ta**	|0.988	|0.963	|0.916|
+|**tb** |0.933	|0.892	|0.785|
+|**tc**	|0.956	|0.918|	0.830|
+|**td**	|0.967	|0.960|	0.940|
+
+## Repository content
+
+## License
