@@ -34,7 +34,7 @@ To run our EIT image reconstruction algorithm, you will need:
 ## Usage instructions
 
 ## Examples
-|   	|  Ref	|  90 	| 60 	| 30 	|
+|   	|  Ref	| Level 1 	| Level 4 	| Level 7 	|
 |----------	|-----	|---	|---	|---	|
 |   **ta**	| ![](results/01.png)	| ![](results/11.png)	|  ![](results/41.png) 	|   ![](results/71.png)	|   
 |   **tb**	| ![](results/02.png)	| ![](results/12.png)	|  ![](results/42.png) 	|   ![](results/72.png)	|
@@ -43,12 +43,15 @@ To run our EIT image reconstruction algorithm, you will need:
 
 Scores for each sample and angle:
 
-|   	|  90 	| 60 	| 30 	|
+|   	|  Ref	| Level 1 	| Level 4 	| Level 7 	|
 |-----	|---	|---	|---	|
 |**ta**	|0.988	|0.963	|0.916|
 |**tb** |0.933	|0.892	|0.785|
 |**tc**	|0.956	|0.918|	0.830|
 |**td**	|0.967	|0.960|	0.940|
+
+{.include}
+results/scores.txt
 
 ## Repository content
 
