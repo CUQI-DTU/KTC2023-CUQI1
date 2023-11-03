@@ -1,26 +1,19 @@
 # EIT Image Reconstruction Algorithm
-
-This repository contains the code and documentation for our submission to the [Kuopio Tomography Challenge 2023](https://www.fips.fi/KTC2023.php).
-
-Electrical Impedance Tomography (EIT) Reconstruction Competition. In this competition, we present our approach to reconstruct high-quality images from EIT measurements.
-
-Electrical Impedance Tomography (EIT) is a powerful technique for non-invasively imaging the electrical conductivity distribution within objects. Our submission focuses on developing an innovative algorithm that enhances the quality and accuracy of EIT image reconstructions.
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Algorithm Overview](#algorithm-overview)
-- [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Results](#results)
-- [License](#license)
+This is a submission for the [Kuopio Tomography Challenge](https://www.fips.fi/KTC2023.php). 
 
 ## Authors
-
+- Amal Mohammed A Alghamdi (DTU), Denmark
+- Martin Sæbye Carøe (DTU), Denmark
+- Jasper Marijn Everink (DTU), Denmark
+- Jakob Sauer Jørgensen (DTU), Denmark
+- Kim Knudsen (DTU), Denmark
+- Jakob Tore Kammeyer Nielsen (DTU), Denmark
+- Aksel Kaastrup Rasmussen (DTU), Denmark
+- Rasmus Kleist Hørlyck Sørensen (DTU), Denmark
+- Chao Zhang (DTU), Denmark
 
 ## Addresses
-
+DTU: Technical University of Denmark, Department of Applied Mathematics and Computer Science Richard Petersens Plads Building 324 2800 Kgs. Lyngby Denmark
 
 ## Description of the algorithm
 
@@ -52,16 +45,13 @@ python main.py path/to/input/files path/to/output/files difficulty
 
 Scores for each sample and angle:
 
+**TODO: ADD SCORES FOR EACH ALGORITHM**
 |   	|  Ref	| Level 1 	| Level 4 	| Level 7 	|
 |-----	|---	|---	|---	|
-|**ta**	|0.988	|0.963	|0.916|
-|**tb** |0.933	|0.892	|0.785|
-|**tc**	|0.956	|0.918|	0.830|
-|**td**	|0.967	|0.960|	0.940|
-
-{.include}
-results/scores.md
-
-## Repository content
+|**ta**	||||
+|**tb** ||||
+|**tc**	||||
+|**td**	|||||
 
 ## License
+All files in the repository come with the [Apache-v2.0](https://www.apache.org/licenses/LICENSE-2.0) license unless differently specified.
