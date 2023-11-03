@@ -1,11 +1,4 @@
 # EIT Image Reconstruction Algorithm
-
-This repository contains the code and documentation for our submission to the [Kuopio Tomography Challenge 2023](https://www.fips.fi/KTC2023.php).
-
-Electrical Impedance Tomography (EIT) Reconstruction Competition. In this competition, we present our approach to reconstruct high-quality images from EIT measurements.
-
-Electrical Impedance Tomography (EIT) is a powerful technique for non-invasively imaging the electrical conductivity distribution within objects. Our submission focuses on developing an innovative algorithm that enhances the quality and accuracy of EIT image reconstructions.
-
 ## Authors
 - Amal Mohammed A Alghamdi (DTU), Denmark
 - Martin Sæbye Carøe (DTU), Denmark
