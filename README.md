@@ -37,7 +37,7 @@ python main.py path/to/input/files path/to/output/files difficulty
 ## Examples
 |   	|  Ref	| Level 1 	| Level 4 	| Level 7 	|
 |----------	|-----	|---	|---	|---	|
-|   **ta**	| <img src="results/01.png" width="256" height="256" />	| ![](results/11.png)	|  ![](results/41.png) 	|   ![](results/71.png)	|   
+|   **ta**	| ![](results/01.png)	| ![](results/11.png)	|  ![](results/41.png) 	|   ![](results/71.png)	|   
 |   **tb**	| ![](results/02.png)	| ![](results/12.png)	|  ![](results/42.png) 	|   ![](results/72.png)	|
 |   **tc**	| ![](results/03.png)	| ![](results/13.png)	|  ![](results/43.png) 	|   ![](results/73.png)	|
 |   **td**	| ![](results/04.png)	| ![](results/14.png)	|  ![](results/44.png) 	|   ![](results/74.png)	|  
