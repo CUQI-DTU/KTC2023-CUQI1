@@ -25,8 +25,9 @@ Electrical Impedance Tomography (EIT) is a powerful technique for non-invasively
 ## Description of the algorithm
 
 We have used the provided code for the EIT image reconstruction with the following modifications:
-- Additional Tikhonov regularization has been added to penalize close to the missing electrodes.
 - The Otsu segmentation algorithm has been replaced by the Chan-Vese segmentation algorithm from scikit-image.
+- Additional generalized Tikhonov regularization has been added to penalize more when close to the missing electrodes (and boundary). The regularization matrix is a diagonal matrix. For example, for difficulty level 5, the diagonal elements mapped to image space look as in the image below:
+![](results/reg1.png)
 
 ## Installation instructions
 To run our EIT image reconstruction algorithm, you will need:
