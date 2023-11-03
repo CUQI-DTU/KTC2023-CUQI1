@@ -1,4 +1,6 @@
 # EIT Image Reconstruction Algorithm
+This is a submission for the [Kuopio Tomography Challenge](https://www.fips.fi/KTC2023.php). 
+
 ## Authors
 - Amal Mohammed A Alghamdi (DTU), Denmark
 - Martin Sæbye Carøe (DTU), Denmark
