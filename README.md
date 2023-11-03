@@ -49,16 +49,15 @@ python main.py path/to/input/files path/to/output/files difficulty
 
 Scores for each sample and angle:
 
+**TODO: ADD SCORES FOR EACH ALGORITHM**
 |   	|  Ref	| Level 1 	| Level 4 	| Level 7 	|
 |-----	|---	|---	|---	|
-|**ta**	|0.988	|0.963	|0.916|
-|**tb** |0.933	|0.892	|0.785|
-|**tc**	|0.956	|0.918|	0.830|
-|**td**	|0.967	|0.960|	0.940|
-
-{.include}
-results/scores.md
+|**ta**	||||
+|**tb** ||||
+|**tc**	||||
+|**td**	|||||
 
 ## Repository content
 
 ## License
+All files in the repository come with the [Apache-v2.0](https://www.apache.org/licenses/LICENSE-2.0) license unless differently specified.
