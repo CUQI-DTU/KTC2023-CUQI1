@@ -50,7 +50,5 @@ Scores for each sample and angle:
 |**tc**	||||
 |**td**	|||||
 
-## Repository content
-
 ## License
 All files in the repository come with the [Apache-v2.0](https://www.apache.org/licenses/LICENSE-2.0) license unless differently specified.
