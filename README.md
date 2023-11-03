@@ -43,8 +43,7 @@ python main.py path/to/input/files path/to/output/files difficulty
 |   **c**	| ![](results/03.png)	| ![](results/13.png)	|  ![](results/43.png) 	|   ![](results/73.png)	|
 |   **d**	| ![](results/04.png)	| ![](results/14.png)	|  ![](results/44.png) 	|   ![](results/74.png)	|  
 
-Scores for each sample and angle:
-
+Scores for each phantom and difficulty 1,4 and 7:
 **TODO: ADD SCORES FOR EACH ALGORITHM**
 |   Phantom	|  Ref	| Level 1 	| Level 4 	| Level 7 	|
 |-----	|---	|---	|---	|
@@ -52,7 +51,7 @@ Scores for each sample and angle:
 |**b** ||||
 |**c**	||||
 |**d**	|||||
-(*) Scores have been computed using our own implementation of the scoring function based on scikit learn.
+Scores have been computed using our own implementation of the scoring function based on scikit learn.
 
 ## License
 All files in the repository come with the [Apache-v2.0](https://www.apache.org/licenses/LICENSE-2.0) license unless differently specified.
