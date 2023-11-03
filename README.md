@@ -51,7 +51,7 @@ Scores for each sample and angle:
 |**td**	|0.967	|0.960|	0.940|
 
 {.include}
-results/scores.txt
+results/scores.md
 
 ## Repository content
 
