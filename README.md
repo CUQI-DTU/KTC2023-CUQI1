@@ -6,16 +6,6 @@ Electrical Impedance Tomography (EIT) Reconstruction Competition. In this compet
 
 Electrical Impedance Tomography (EIT) is a powerful technique for non-invasively imaging the electrical conductivity distribution within objects. Our submission focuses on developing an innovative algorithm that enhances the quality and accuracy of EIT image reconstructions.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Algorithm Overview](#algorithm-overview)
-- [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Results](#results)
-- [License](#license)
-
 ## Authors
 - Amal Mohammed A Alghamdi (DTU), Denmark
 - Martin Sæbye Carøe (DTU), Denmark
