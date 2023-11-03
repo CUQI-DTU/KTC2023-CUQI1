@@ -4,6 +4,8 @@ This repository contains the code and documentation for our submission to the [K
 
 Electrical Impedance Tomography (EIT) Reconstruction Competition. In this competition, we present our approach to reconstruct high-quality images from EIT measurements.
 
+Electrical Impedance Tomography (EIT) is a powerful technique for non-invasively imaging the electrical conductivity distribution within objects. Our submission focuses on developing an innovative algorithm that enhances the quality and accuracy of EIT image reconstructions.
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -16,13 +18,15 @@ Electrical Impedance Tomography (EIT) Reconstruction Competition. In this compet
 
 ## Authors
 
-Electrical Impedance Tomography (EIT) is a powerful technique for non-invasively imaging the electrical conductivity distribution within objects. Our submission focuses on developing an innovative algorithm that enhances the quality and accuracy of EIT image reconstructions.
 
 ## Addresses
 
 
 ## Description of the algorithm
 
+We have used the provided code for the EIT image reconstruction with the following modifications:
+- Additional Tikhonov regularization has been added to penalize close to the missing electrodes.
+- The Otsu segmentation algorithm has been replaced by the Chan-Vese segmentation algorithm from scikit-image.
 
 ## Installation instructions
 To run our EIT image reconstruction algorithm, you will need:
@@ -32,6 +36,10 @@ To run our EIT image reconstruction algorithm, you will need:
 - Access to the provided dataset (not included in this repository)
 
 ## Usage instructions
+
+```
+python main.py path/to/input/files path/to/output/files difficulty
+```
 
 ## Examples
 |   	|  Ref	| Level 1 	| Level 4 	| Level 7 	|
